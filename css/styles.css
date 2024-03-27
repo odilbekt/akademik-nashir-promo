@@ -1,3 +1,7 @@
+:root {
+	--orange-color: #ff7500;
+}
+
 html {
 	box-sizing: border-box;
 	height: 100%;
@@ -5,7 +9,7 @@ html {
 }
 
 *:focus {
-	outline: 2px dotted #ff7500;
+	outline: 2px dotted var(--orange-color);
 	outline-offset: 3px;
 }
 
@@ -29,7 +33,7 @@ body {
 .btn {
 	border: none;
 	padding: 12px 24px;
-	background-color: #ff7500;
+	background-color: var(--orange-color);
 	color: #fff;
 	border-radius: 4px;
 	cursor: pointer;
@@ -48,7 +52,7 @@ body {
 .site-header {
 	padding-top: 16px;
 	padding-bottom: 16px;
-	border-top: 5px solid #ff7500;
+	border-top: 5px solid var(--orange-color);
 }
 
 .site-header__container {
@@ -97,14 +101,14 @@ body {
 }
 
 .site-nav__link:hover {
-	color: #ff7500;
+	color: var(--orange-color);
 }
 .site-nav__link:active {
 	opacity: 0.6;
 }
 
 .site-nav__link-active {
-	border-bottom: 3px solid #ff7500;
+	border-bottom: 3px solid var(--orange-color);
 }
 
 p::selection {
@@ -143,7 +147,7 @@ p::selection {
 	float: left;
 	width: 80px;
 	height: 3px;
-	background-color: #ff7500;
+	background-color: var(--orange-color);
 	border: none;
 }
 
@@ -181,7 +185,7 @@ p::selection {
 	display: inline-block;
 	width: 80px;
 	height: 3px;
-	background-color: #ff7500;
+	background-color: var(--orange-color);
 	margin-bottom: 24px;
 }
 
@@ -275,7 +279,7 @@ p::selection {
 }
 
 .promo-span {
-	color: #ff7500;
+	color: var(--orange-color);
 	font-weight: 700;
 }
 
@@ -323,7 +327,7 @@ p::selection {
 }
 
 .site-footer__top-link svg:hover {
-	color: #ff7500;
+	color: var(--orange-color);
 }
 
 .site-footer__top-link svg:active {
@@ -361,7 +365,7 @@ p::selection {
 }
 
 .site-footer__bottom-link:hover {
-	color: #ff7500;
+	color: var(--orange-color);
 }
 
 .site-footer__bottom-link:active {
